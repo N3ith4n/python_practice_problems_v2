@@ -5,4 +5,4 @@ user_name = input("Give me your full name = ")
 counter = len(user_name)
 
 #print
-print(counter)
+print(f"The total number of characters in your name was = {counter}")
