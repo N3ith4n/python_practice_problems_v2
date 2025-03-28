@@ -13,3 +13,5 @@ def custom_lstrip(s):
 name = input("Please enter your full name and please add some space at front = ")
 
 #print
+result = custom_lstrip(name)
+print(f"'{result}'") 
