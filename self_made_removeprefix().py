@@ -10,4 +10,4 @@ prefix = input("Enter the prefix to remove: ")
 
 #print
 result = custom_removeprefix(random_word, prefix)
-print(f"'{result}'")
+print(f"Here is your word minus the prefix you inputted = {result}")
