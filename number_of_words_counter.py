@@ -5,4 +5,4 @@ user_statement = input("Give me a statement to count the number of words in = ")
 seperated_words = len(user_statement)
 
 #print the total number of words in the string
-print(seperated_words)
+print(f"The total number of the words in the statement you gave was = {seperated_words}")
