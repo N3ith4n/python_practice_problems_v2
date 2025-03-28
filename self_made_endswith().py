@@ -9,3 +9,5 @@ user_input = input("Give me a random word =  ")
 suffix = input("Enter the suffix to check = ")
 
 #print
+result = custom_endswith(user_input, suffix)
+print(f"Does the word you gave ends with'{suffix}'? {result}!")
