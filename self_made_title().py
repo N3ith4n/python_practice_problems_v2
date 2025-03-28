@@ -10,3 +10,5 @@ def custom_title(input_string):
 user_input = input("Give me a random sentence = ")
 
 #print
+result = custom_title(user_input)
+print(f"Here is the string with each first letter in each word capitalized = {result}")
