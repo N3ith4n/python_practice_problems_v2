@@ -9,3 +9,5 @@ def custom_is_upper(input_string):
 user_input = input("Input your name お願いします: ")
 
 #print
+result = custom_is_upper(user_input)
+print(f"Is your name all in uppercase? {result}")
