@@ -9,3 +9,5 @@ def custom_capitalize(input_string):
 user_input = input("Enter a random word = ")
 
 #print
+result = custom_capitalize(user_input)
+print(f"Here is the string with the first letter capitalized = {result}")
