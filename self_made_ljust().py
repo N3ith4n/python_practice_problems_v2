@@ -12,3 +12,5 @@ user_input = input("Enter a random word = ")
 width = int(input("What is your desired string width? = "))
 
 #print
+result = custom_ljust(user_input, width)
+print(f"Here is the adjusted string with your desired string width = {result}")
