@@ -14,3 +14,5 @@ user_input = input("Enter a random word = ")
 width = int(input("Enter your desired width for the string = "))
 
 #print
+result = custom_center(user_input, width)
+print(f"Here is your word centered = {result}")
