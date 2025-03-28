@@ -4,7 +4,7 @@
 user_name = input("Please give me your name and add some space at front too = ")
 
 #the actual program
-changed = name.lstrip()
+changed = user_name.lstrip()
 
 #print
 print(changed)
