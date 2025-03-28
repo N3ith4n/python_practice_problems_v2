@@ -1,4 +1,8 @@
 #makes a def where it will check if the input starts with the prefix
+def custom_removeprefix(s, prefix):
+    if s.startswith(prefix):  #this checks if the the string starts with a prefix
+        return s[len(prefix):]  #uses slicing to remove the prefix
+    return s  #returns the original string if no prefix is found
 
 #asks the user for input
 
