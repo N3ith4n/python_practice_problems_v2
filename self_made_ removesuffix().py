@@ -5,5 +5,9 @@ def custom_removesuffix(user_input, suffix):
     return user_input
 
 #asks the user for input
+random_word = input("Enter a random word = ")
+suffix = input("Enter the suffix to remove = ")
 
 #print
+result = custom_removesuffix(random_word, suffix)
+print(f"Here is your word minus the suffix you inputted = {result}")
