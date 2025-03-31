@@ -10,4 +10,8 @@ user_string = input("Enter a string = ")
 substring = input("Enter the substring to find = ")
 
 #print
-
+try:
+    result = custom_index(user_string, substring)
+    print(f"The substring '{substring}' starts at index {result}.")
+except ValueError as error:
+    print(error)
