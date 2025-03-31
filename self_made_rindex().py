@@ -12,6 +12,6 @@ substring = input("Enter the substring to find = ")
 #print
 try:
     result = custom_rindex(user_string, substring)
-    print(f"The substring '{substring}' starts at index {result}.")
+    print(f"The substring '{substring}' is first seen at index {result}.")
 except ValueError as error:
     print(error)
